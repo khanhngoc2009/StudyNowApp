@@ -2,13 +2,23 @@ package com.example.studynow;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity {
-
+    private static int Spa =3000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this,Activity_Menu_Toan.class);
+                startActivity(intent);
+                finish();
+            }
+        },Spa);
     }
 }
