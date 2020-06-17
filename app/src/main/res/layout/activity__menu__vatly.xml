@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Menu_Toan">
-
+    tools:context=".Activity_Menu_Vatly">
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="250dp"
@@ -20,7 +19,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_toan_lythuyet"
+        android:id="@+id/btn_ly_lythuyet"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/radius"
@@ -37,7 +36,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_toan_tracnghiem"
+        android:id="@+id/btn_Ly_tracnghiem"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/radius"
@@ -54,7 +53,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/btn_toan_nangcao"
+        android:id="@+id/btn_ly_nangcao"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/radius"

@@ -16,22 +16,19 @@
         android:layout_gravity="center"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="80dp"
-        android:src="@drawable/iconstudynow"
-        />
+        android:src="@drawable/iconstudy" />
 
     <Button
         android:id="@+id/btn_toan"
-        android:layout_width="350dp"
+        android:layout_width="354dp"
         android:layout_height="40dp"
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:background="@drawable/radius"
         android:text="Toán Học"
-        android:textSize="22dp"
-        android:textStyle="bold"
         android:textColor="@color/colorWhite"
-        />
-
+        android:textSize="22dp"
+        android:textStyle="bold" />
 
     <Button
         android:background="@drawable/radius"

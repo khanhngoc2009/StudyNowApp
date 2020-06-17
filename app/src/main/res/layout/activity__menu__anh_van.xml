@@ -4,23 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity_Menu_Toan">
-
+    tools:context=".Activity_Menu_AnhVan">
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:background="@drawable/iconstudy"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.097"
-        tools:ignore="MissingConstraints" />
-
+    android:id="@+id/imageView2"
+    android:layout_width="250dp"
+    android:layout_height="250dp"
+    android:background="@drawable/iconstudy"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.496"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.097"
+    tools:ignore="MissingConstraints" />
     <Button
-        android:id="@+id/btn_toan_lythuyet"
+        android:id="@+id/btn_anh_lythuyet"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/radius"
@@ -33,32 +31,14 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.58"
+        app:layout_constraintVertical_bias="0.634"
         tools:ignore="MissingConstraints" />
-
     <Button
-        android:id="@+id/btn_toan_tracnghiem"
+        android:id="@+id/btn_anh_tracnghiem"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:background="@drawable/radius"
-        android:text="Trắc nghiệm"
-        android:textStyle="bold"
-        android:textColor="@color/colorWhite"
-        android:textSize="22dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.709"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/btn_toan_nangcao"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:background="@drawable/radius"
-        android:text="Nâng Cao"
+        android:text="Trắc nghiệm theo Đề THPT"
         android:textColor="@color/colorWhite"
         android:textSize="22dp"
         android:textStyle="bold"
@@ -67,6 +47,6 @@
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.837"
+        app:layout_constraintVertical_bias="0.77"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
